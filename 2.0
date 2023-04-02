@@ -1,0 +1,28 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pycocotools
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ef/c6/90220be3b39fbc4cbd203775ca47dd8dc97fae06fbd2b500637395621b7c/pycocotools-2.0.6.tar.gz (24 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Requirement already satisfied: numpy in f:\environment\py3.8\lib\site-packages (from pycocotools) (1.24.1)
+Requirement already satisfied: matplotlib>=2.1.0 in f:\environment\py3.8\lib\site-packages (from pycocotools) (3.6.2)
+Requirement already satisfied: python-dateutil>=2.7 in f:\environment\py3.8\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (2.8.2)
+Requirement already satisfied: cycler>=0.10 in f:\environment\py3.8\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (0.11.0)
+Requirement already satisfied: contourpy>=1.0.1 in f:\environment\py3.8\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (1.0.6)
+Requirement already satisfied: kiwisolver>=1.0.1 in f:\environment\py3.8\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (1.4.4)
+Requirement already satisfied: packaging>=20.0 in f:\environment\py3.8\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (22.0)
+Requirement already satisfied: fonttools>=4.22.0 in f:\environment\py3.8\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (4.38.0)
+Requirement already satisfied: pyparsing>=2.2.1 in f:\environment\py3.8\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (3.0.9)
+Requirement already satisfied: pillow>=6.2.0 in f:\environment\py3.8\lib\site-packages (from matplotlib>=2.1.0->pycocotools) (9.3.0)
+Requirement already satisfied: six>=1.5 in f:\environment\py3.8\lib\site-packages (from python-dateutil>=2.7->matplotlib>=2.1.0->pycocotools) (1.16.0)
+Building wheels for collected packages: pycocotools
+  Building wheel for pycocotools (PEP 517): started
+  Building wheel for pycocotools (PEP 517): finished with status 'done'
+  Created wheel for pycocotools: filename=pycocotools-2.0.6-cp38-cp38-win_amd64.whl size=73853 sha256=dbc2e1b6c0eb920a700b35123412b73bff17fb427b809bdaabdd35974873b06d
+  Stored in directory: c:\users\administrator\appdata\local\pip\cache\wheels\0b\be\02\81bff2836e46056c902ecde0741594f88fde6af7bd5ef46cfb
+Successfully built pycocotools
+Installing collected packages: pycocotools
+Successfully installed pycocotools-2.0.6
